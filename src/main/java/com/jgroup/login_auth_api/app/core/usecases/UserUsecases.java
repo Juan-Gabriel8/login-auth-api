@@ -17,4 +17,10 @@ public class UserUsecases implements UserInputPort {
         userOutputPort.register(user);
 
     }
+
+    @Override
+    public User findUserByEmail(String email) {
+        return userOutputPort.findUserByEmail(email);
+    }
+
 }

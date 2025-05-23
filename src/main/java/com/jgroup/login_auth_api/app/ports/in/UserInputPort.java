@@ -5,4 +5,6 @@ import com.jgroup.login_auth_api.app.core.domain.User;
 public interface UserInputPort {
 
     void register(User user);
+
+    User findUserByEmail(String email);
 }
