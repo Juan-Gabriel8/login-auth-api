@@ -1,6 +1,6 @@
 package com.jgroup.login_auth_api.adapters.out.repositories.entities;
 
-import com.jgroup.login_auth_api.app.core.domain.Role;
+import com.jgroup.login_auth_api.app.core.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,6 @@
-package com.jgroup.login_auth_api.app.core.domain;
+package com.jgroup.login_auth_api.app.core;
+
+import com.jgroup.login_auth_api.app.core.User;
 
 import java.util.List;
 
